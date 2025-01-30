@@ -19,10 +19,10 @@ const App = () => {
   }, [todos]);
 
   return (
-    <div className="container mx-auto mt-2 min-h-screen flex justify-center items-center bg-gradient-to-bl from-[#0093E9] to-[#80D0C7]">
+    <div className="min-h-screen flex justify-center items-center bg-gradient-to-bl from-[#0093E9] to-[#80D0C7]">
       <div className="bg-white p-8 rounded-lg shadow-lg w-full sm:w-96">
         <header className="bg-orange-500 p-4 shadow-md rounded-t-lg">
-          <h3 className="text-3xl font-bold text-center text-transparent bg-gradient-to-r from-[#4158D0] to-[#C850C0] bg-clip-text">
+          <h3 className="text-3xl font-bold text-center text-transparent bg-gradient-to-r from-[#b90404] to-[#2a8726] bg-clip-text">
             Todo App
           </h3>
         </header>
@@ -33,7 +33,7 @@ const App = () => {
         </main>
 
         <footer className="bg-white p-4 text-center text-sm text-gray-700 shadow-md mt-6 rounded-b-lg">
-          © 2024 Todo App
+          © Sebs Todo App
         </footer>
       </div>
     </div>
