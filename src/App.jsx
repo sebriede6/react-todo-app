@@ -50,7 +50,7 @@ const App = () => {
           </h3>
         </header>
 
-        <main className="container mx-auto bg-gray-200 p-4 mt-6 rounded-lg shadow-md">
+        <main className="container mx-auto bg-gray-400 p-4 mt-6 rounded-lg shadow-md">
           <TodoForm addTodo={addTodo} />
           <div className="flex justify-center space-x-4 mb-4">
             <button onClick={() => setFilter('all')} className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Alle</button>
@@ -60,7 +60,7 @@ const App = () => {
           <TodoList todos={filteredTodos()} toggleComplete={toggleComplete} removeTodo={removeTodo} />
         </main>
 
-        <footer className="bg-white p-4 text-center text-sm text-gray-700 shadow-md mt-6 rounded-b-lg">
+        <footer className="bg-gray-800 p-4 text-center text-sm text-gray-300 shadow-md mt-6 rounded-b-lg">
           © Sebs Todo App
         </footer>
       </div>
