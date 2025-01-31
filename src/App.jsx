@@ -44,7 +44,7 @@ const App = () => {
   return (
     <div>
       <div className="bg-gradient-to-r from-[#100a0a] to-[#1af012] p-8 rounded-lg shadow-lg w-full sm:w-[600px]">
-        <header className="bg-orange-500 p-4 shadow-md rounded-t-lg">
+        <header className="bg-gray-900 p-4 shadow-md rounded-t-lg">
           <h3 className="text-3xl font-bold text-center text-transparent bg-gradient-to-r from-[#100a0a] to-[#1af012] bg-clip-text">
             Todo App
           </h3>
