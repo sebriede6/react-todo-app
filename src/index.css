@@ -1,3 +1,5 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+.break-words {
+    word-wrap: break-word;
+    word-break: break-word;
+}

@@ -1,0 +1,17 @@
+@keyframes shimmer {
+    0% {
+      background-position: -1000px 0;
+    }
+    100% {
+      background-position: 1000px 0;
+    }
+  }
+  
+  .shimmer {
+    background: linear-gradient(to right, #020c6c 0%, #ecf803 20%, #071aca 40%, #38a169 100%);
+    background-size: 200% auto;
+    color: rgb(15, 2, 2);
+    background-clip: text;
+    color: transparent;
+    animation: shimmer 10s linear infinite;
+  }
